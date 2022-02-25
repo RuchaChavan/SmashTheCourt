@@ -1,0 +1,22 @@
+package com.project.controller;
+
+
+
+@Controller
+public class MyWebController {
+
+	
+	
+	public ModelAndView login() {
+		
+		ModelAndView mv = new ModelAndView();
+		
+		mv.setViewName("home");
+		
+		
+	}
+	
+	
+	
+	
+}
